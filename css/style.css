@@ -52,3 +52,17 @@ h3 {
     color: rebeccapurple;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+tr {
+    margin: none;
+}
+
+th {
+    background: rgb(54, 54, 175);
+    color: white;
+}
+
+td {
+    background: rgb(165, 165, 241);
+    color: black;
+}
