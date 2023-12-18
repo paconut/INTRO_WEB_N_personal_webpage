@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Francisco Hernández Padilla</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -18,9 +19,15 @@
     <!--<img width=200px src="https://media.gq.com.mx/photos/620e915c43f71a078a35533f/16:9/w_1600,c_limit/playa.jpg"
         alt="playa">-->
     <main>
-        <h2>Portafolio</h2>
+        <nav class="indice">
+            <li><a href="#portafolio">Portafolio</a></li>
+            <li><a href="#me">Yo</a></li>
+            <li><a href="#links">Links</a></li>
+            <li><a href="#project">Proyectos</a></li>
+        </nav>
+        <h2 id="portafolio">Portafolio</h2>
         <div>
-            <h3>Me</h3>
+            <h3 id="me">Me</h3>
             <p>"La tecnología nos facilita reducir las barreras de la distancia y el tiempo." Emily Greene Balch<br>
 
                 Soy proactivo, autodidacta y trabajador. Me mantengo informado con las nuevas tecnologías y me gusta
@@ -29,33 +36,40 @@
         </div>
         <hr>
         <div>
-            <h3>Links</h3>
+            <h3 id="links">Links</h3>
             <ul>
                 <li>
                     <a href="https://www.linkedin.com/in/francisco-hernández-padilla-5429ba239/"
-                        target="_blank">Linkedin</a>
+                        target="_blank"><ion-icon name="logo-linkedin">
+                        </ion-icon>Linkedin</a>
                 </li>
                 <li>
-                    <a href="https://github.com/paconut/" target="_blank">Github</a>
+                    <a href="https://github.com/paconut/" target="_blank"><ion-icon name="logo-github">
+                        </ion-icon>Github</a>
                 </li>
                 <li>
-                    <a href="https://www.instagram.com/paco_hdez/" target="_blank">Instagram</a>
+                    <a href="https://www.instagram.com/paco_hdez/" target="_blank"><ion-icon name="logo-instagram">
+                        </ion-icon>Instagram</a>
                 </li>
             </ul>
         </div>
         <hr>
         <div>
-            <h3>Project</h3>
+            <h3 id="project">Project</h3>
             <ol>
                 <li>
-                    <a href="https://github.com/paconut/INTRO_WEB_N_personal_webpage">INTRO_WEB_N_personal_webpage</a>
+                    <a href="https://github.com/paconut/INTRO_WEB_N_personal_webpage"><ion-icon name="logo-github">
+                        </ion-icon>INTRO_WEB_N_personal_webpage</a>
                 </li>
                 <li>
-                    <a href="https://github.com/paconut/test">test</a>
+                    <a href="https://github.com/paconut/test"><ion-icon name="logo-github">
+                        </ion-icon>test</a>
                 </li>
             </ol>
         </div>
     </main>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="script.js"></script>
 </body>
 
