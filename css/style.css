@@ -20,6 +20,7 @@ header {
     border-radius: 50px;
     margin-inline-end: 15px;
     margin-block-end: -25px;
+    transition: transform 0.3s ease-in-out;
 }
 
 h1 {
@@ -29,6 +30,10 @@ h1 {
 
 .link_yo:hover {
     color: aqua;
+}
+
+.link_yo .Yo:hover {
+    transform: translateY(-3px);
 }
 
 main {
