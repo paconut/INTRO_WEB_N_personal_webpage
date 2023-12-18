@@ -1,6 +1,41 @@
+body {
+    margin: 0;
+}
+
+header {
+    min-height: 150px;
+    display: flex;
+    background-color: #14161a;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.link_yo {
+    color: white;
+}
+
+.Yo {
+    display: inline-block;
+    margin: 15px 15px 15px 15px;
+    border-radius: 50px;
+    margin-inline-end: 15px;
+    margin-block-end: -25px;
+}
+
 h1 {
-    color: aquamarine;
     font-family: Arial, Helvetica, sans-serif;
+    display: inline-flex;
+}
+
+.link_yo:hover {
+    color: aqua;
+}
+
+main {
+    background-image: url("https://media.gq.com.mx/photos/620e915c43f71a078a35533f/16:9/w_1600,c_limit/playa.jpg");
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    border: none;
 }
 
 h2 {
